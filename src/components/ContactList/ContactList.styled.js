@@ -1,6 +1,9 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
-export const List = styled.ul`
-  margin-top: 10px;
-  padding-left: 0;
-`;
+export const Contact = styled.li`
+padding: 10px;
+`
+
+export const Button = styled.button`
+margin-left: 5px;
+`

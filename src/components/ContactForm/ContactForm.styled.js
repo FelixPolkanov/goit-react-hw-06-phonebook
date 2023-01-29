@@ -1,18 +1,22 @@
-import styled from 'styled-components';
+import styled from "styled-components";
+
 
 export const Form = styled.form`
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 10px;
-  border: 1px solid green;
-`;
+display: flex;
+flex-direction: column;
+margin: 0 auto;
+label {
+margin-bottom: 15px;
+display: flex;
+flex-direction: column;
+}
+input {
+width: 200px;
+margin: 0 auto;
+}
+`
 
-export const Btn = styled.button`
-  max-width: 100px;
-  margin-top: 10px;
-  padding: 5px;
-  border-radius: 5px;
-  cursor: pointer;
-  background-color: #1E90FF;
-`;
+export const Button = styled.button`
+width: 120px;
+margin: 0 auto;
+`
